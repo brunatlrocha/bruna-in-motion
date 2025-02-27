@@ -16,17 +16,3 @@ function searchFunction() {
         }
     });
 }
-function loadPage(page) {
-    const content = document.getElementById('content');
-
-    if (page === 'home') {
-        window.scrollTo({ top: 0, behavior: 'smooth' }); // Rola para o topo suavemente
-        content.innerHTML = "<h1>Home Page</h1><p>Bem-vindo!</p>";
-    } else if (page === 'about') {
-        content.innerHTML = "<h1>About Page</h1><p>Essa é a página Sobre.</p>";
-    } else if (page === 'resume') {
-        content.innerHTML = "<h1>Resume Page</h1><p>Entre em contato conosco.</p>";
-    } else if (page === 'contact') {
-        content.innerHTML = "<h1>Contact Page</h1><p>Resume</p>";
-    }
-}
