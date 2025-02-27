@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffb7d;
+    color: #333;
+    padding: 20px;
+}
+
+/*header - My Journey*/
+
+header {
+    margin: 30px;
+    align-items: center;
+}
+
+.toppage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    font-size: 30px;
+    color: #5b2bed;
+    text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
+}
+
