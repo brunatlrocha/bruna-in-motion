@@ -1,4 +1,4 @@
-anime({
+anim({
     targets: '#perfil img',
     translateX: 250,
     easing: 'easeInOutQuad',
