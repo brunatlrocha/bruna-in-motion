@@ -21,6 +21,7 @@ h1 {
     font-size: 30px;
     color: #e9e33c;
     margin-left: 40px;
+    text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
 }
 
 header {
@@ -43,17 +44,36 @@ header {
     display: flex;
     align-items: center;
     margin-left: auto;
+    filter: drop-shadow(3px 3px 5px #00000080); 
 }
 
 .linkedin {
-    margin-right: 30px; 
+    margin-right: 10px; 
     width: 50px;
+}
+
+.linkedin:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
 }
 
 .github {
     margin: 10px;
     width: 50px; 
 }
+
+.github:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+}
+
+.instagram {
+    margin-right: 10px;
+    width: 50px; 
+}
+
+.instagram:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+}
+
 
 /*Photo and Graduation*/
 
@@ -65,10 +85,11 @@ header {
     font-size: 30px;
     margin: 50px;
     color: #e9e33c;
+    text-shadow: 7px 7px 10px #000000b3;
 }
 
 .title {
-    width: 50%;
+    width: 60%;
     font-size: 55px;
     font-weight: bold;
 }
@@ -83,28 +104,7 @@ header {
     margin-top: 25px;
     font-size: 15px;
     color: #ebebeb;
-    width: 65%;
-}
-
-/*guide page*/
-
-.loadpage{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-.about {
-    color: #090808;
+    width: 70%;
 }
 
 .circle-img-container { 
@@ -118,6 +118,7 @@ header {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Garante que a imagem não ultrapasse o contêiner */
+    box-shadow: 7px 7px 10px #000000b3;
 }
 
 .circle-img {
@@ -125,4 +126,34 @@ header {
     height: 100%; /* Garante que a imagem ocupe todo o espaço disponível no contêiner */
     border-radius: 50%; /* Define o raio da borda para fazer a imagem parecer um círculo */
     object-fit: cover;
+}
+
+/*guide page (buttons)*/
+
+.nav-buttons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.nav-buttons ul li {
+    display: inline; /* Garante que os itens fiquem em linha */
+}
+
+.nav-buttons ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #5b2bed; /* Define a cor do texto */
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: radial-gradient(circle, #b3b000 0%, #007bff00 100%);
+    transition: background-color 0.3s ease;
+    box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.nav-buttons a:hover {
+    background-color: #b3b000;
+    color: #3f12c7;
 }
