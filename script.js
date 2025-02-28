@@ -12,7 +12,7 @@ function searchFunction() {
         if (item.textContent.toLowerCase().includes(input)) {
             item.style.display = "block"; // Mostra o item que corresponde à pesquisa
         } else {
-            item.style.display = "none"; // Esconde os itens que não corresponde
+            item.style.display = "none"; // Esconde os itens que não correspondem
         }
     });
 }
