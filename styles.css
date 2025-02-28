@@ -17,17 +17,18 @@ body {
 
 /*header - bruna lima*/
 
-h1 {
+header {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
     font-size: 30px;
     color: #E74C6F;
     margin-left: 40px;
     text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
-}
-
-header {
-    margin: 10px 30px 30px 30px;
-    display: flex;
-    align-items: center;
+    font-weight: bold;
 }
 
 .container-ontop {
@@ -74,6 +75,10 @@ header {
     filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
 }
 
+/*container-principal*/
+.container-principal {
+    height: 90vh;
+}
 
 /*Photo and Graduation*/
 
@@ -103,7 +108,7 @@ header {
 .subtitle {
     margin-top: 25px;
     font-size: 15px;
-    color: #ebebeb;
+    color: #ECE2D3;
     width: 70%;
 }
 
@@ -136,7 +141,7 @@ header {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 10px;
 }
 
 .nav-buttons ul li {
@@ -145,28 +150,25 @@ header {
 
 .nav-buttons ul li a {
     text-decoration: none; /* Remove o sublinhado dos links */
-    color: #ebebeb; /* Define a cor do texto */
+    color: #ECE2D3; /* Define a cor do texto */
     padding: 20px 40px;
     border-radius: 8px;
-    background: radial-gradient(circle, #E74C6F -50%, #007bff00 100%);
+    background: radial-gradient(circle, #E74C6F -10000%, #007bff00 100%);
     transition: background-color 0.3s ease;
     
 }
 
 .nav-buttons a:hover {
     background-color: #E74C6F;
-    color: #3f12c7;
+    color: #ECE2D3;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid #E74C6F;
     bottom: 0;
     left: 0;
     height: 40px;
     width: 100%;
-    color: #ebebeb;
-    padding-left: 30px;
-}
+    text-align: end;
+    color: #E74C6F;
+  }
