@@ -15,14 +15,13 @@ body {
 
 header {
     margin: 30px;
+    display: flex;
     align-items: center;
 }
 
 .toppage {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
 }
 
 .toppage a {
@@ -48,7 +47,6 @@ header {
 }
 
 .title .text {
-    background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
 }
