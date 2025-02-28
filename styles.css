@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #5b2bed;
+    background-color: #1E2A38;
     color: #333;
     padding: 20px;
 }
@@ -19,7 +19,7 @@ body {
 
 h1 {
     font-size: 30px;
-    color: #e9e33c;
+    color: #E74C6F;
     margin-left: 40px;
     text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
 }
@@ -84,7 +84,7 @@ header {
     gap: 40px; /* Espaço entre os elementos */
     font-size: 30px;
     margin: 50px;
-    color: #e9e33c;
+    color: #E74C6F;
     text-shadow: 7px 7px 10px #000000b3;
 }
 
@@ -112,7 +112,7 @@ header {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    border: 2px solid #e9e33c; /* Aumentei um pouco a borda para mais destaque */
+    border: 2px solid #E74C6F; /* Aumentei um pouco a borda para mais destaque */
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -145,15 +145,28 @@ header {
 
 .nav-buttons ul li a {
     text-decoration: none; /* Remove o sublinhado dos links */
-    color: #5b2bed; /* Define a cor do texto */
-    padding: 10px 20px;
+    color: #ebebeb; /* Define a cor do texto */
+    padding: 20px 40px;
     border-radius: 8px;
-    background: radial-gradient(circle, #b3b000 0%, #007bff00 100%);
+    background: radial-gradient(circle, #E74C6F -50%, #007bff00 100%);
     transition: background-color 0.3s ease;
-    box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
+    
 }
 
 .nav-buttons a:hover {
-    background-color: #b3b000;
+    background-color: #E74C6F;
     color: #3f12c7;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-top: 1px solid #ebebeb;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    color: #ebebeb;
+    padding-left: 30px;
 }
