@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fffb7d;
+    background-color: #ECE1D3;
     color: #333;
     padding: 20px;
 }
@@ -25,9 +25,75 @@ header {
     
 }
 
-h1 {
-    font-size: 30px;
-    color: #5b2bed;
-    text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
+.toppage a {
+    color: #3A75C4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30PX;
+    margin-left: 40px;
+    text-shadow: 2px 2px 5px #494949b3;
 }
 
+.container-text-image {
+    display: flex; /* Usando Flexbox para layout horizontal */
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: flex-start; /* Alinha os itens no topo */
+    height: 100vh; /* Faz o contêiner ocupar toda a altura da página */
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    flex: 1; /* Faz essa coluna ocupar a metade da largura */
+}
+
+.title .text {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.right-container {
+    flex: 1; /* Faz a imagem ocupar a outra metade da largura */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+.girl-img {
+    max-width: 80%; /* Garante que a imagem ocupe o tamanho correto */
+    height: auto;
+}
+
+.title {
+    margin: 0px 20px 5px 150px;
+    color: #3A75C4;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text {
+    color: #1E2A38;
+    line-height: 25px; /* Espaço entre as linhas de texto */
+}
+
+.introduction {
+    margin: 0px 100px 10px 150px;
+}
+
+.development {
+    margin: 20px 100px 20px 150px;
+}
+
+.conclusion {
+    margin: 20px 100px 20px 150px;
+}
+
+footer {
+  border-top: 1px solid #333;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  text-align: end;
+}
