@@ -21,6 +21,7 @@ header {
     margin: 30px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .name {
@@ -35,10 +36,6 @@ header {
     display: flex;
     align-items: center;
     margin-left: auto;
-}
-
-.search-container {
-    margin-right: 50px;
 }
 
 .social-midia {
@@ -135,6 +132,10 @@ header {
 
 /*guide page (buttons)*/
 
+.nav-buttons {
+    text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
+}
+
 .nav-buttons ul {
     list-style: none;
     padding: 0;
@@ -153,9 +154,6 @@ header {
     color: #ECE2D3; /* Define a cor do texto */
     padding: 20px 40px;
     border-radius: 8px;
-    background: radial-gradient(circle, #E74C6F -10000%, #007bff00 100%);
-    transition: background-color 0.3s ease;
-    
 }
 
 .nav-buttons a:hover {
@@ -172,3 +170,171 @@ footer {
     text-align: end;
     color: #E74C6F;
   }
+
+  /*cellphone*/
+
+  @media (max-width: 450px) {
+
+    header {
+        display: inline;
+        justify-content: center;
+    }
+
+    .name {
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+
+    .nav-buttons ul li a {
+        padding: 50px 5px; 
+    }
+
+    .nav-buttons {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-principal {
+        height: 73vh;
+    }  
+
+    .graduation {
+        margin: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: normal;
+        gap: 0px;
+    }
+    
+    .title {
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-size: 13px;
+        color: #ECE2D3;
+        width: 100%;
+    }
+    
+    .circle-img-container { 
+        width: 190px;
+        height: 190px;
+    }
+    
+    .container-ontop {
+        width: 100%;
+    }
+    
+    .social-midia {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .github {
+        width: 35px;
+    }
+
+    .linkedin {
+        width: 35px;
+    }
+
+    .instagram {
+        width: 35px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 12px;
+        width: auto;
+    }
+}
+
+@media (max-width: 451px) {
+    
+    header {
+        display: flex;
+        align-content: center;
+    }
+
+    .name {
+        width: 100%;
+        margin: 0px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav-buttons ul li a {
+        padding: 50px 5px; 
+    }
+
+    .container-principal {
+        height: 73vh;
+    }  
+
+    .graduation {
+        margin: 2px;
+        display: flex;
+        align-items: normal;
+        gap: 0px;
+        align-items: center;
+    }
+    
+    .title {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .circle-img-container { 
+        width: 190px;
+        height: 190px;
+    }
+    
+    .container-ontop {
+        width: 100%;
+    }
+
+    .social-midia {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .github {
+        width: 40px;
+    }
+
+    .linkedin {
+        width: 40px;
+    }
+
+    .instagram {
+        width: 40px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 12px;
+        width: auto;
+    }
+
+    .container-principal {
+        height: 65vh;
+    }
+}
