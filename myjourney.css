@@ -21,11 +21,19 @@ header {
 
 .toppage {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+.title-page {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1E2A38;
 }
 
 .toppage a {
-    color: #3A75C4;
+    color: #E74C6F;
     text-decoration: none;
     font-weight: bold;
     font-size: 30PX;
@@ -65,7 +73,7 @@ header {
 
 .title {
     margin: 0px 20px 5px 150px;
-    color: #3A75C4;
+    color: #1E2A38;
     font-weight: bold;
     font-size: 50px;
 }
@@ -87,6 +95,46 @@ header {
     margin: 20px 100px 20px 150px;
 }
 
+.container-ontop {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.social-midia {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    filter: drop-shadow(3px 3px 5px #00000080); 
+}
+
+.linkedin {
+    margin-right: 10px; 
+    width: 50px;
+}
+
+.linkedin:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+}
+
+.github {
+    margin: 10px;
+    width: 50px; 
+}
+
+.github:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+}
+
+.instagram {
+    margin-right: 10px;
+    width: 50px; 
+}
+
+.instagram:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+}
+
 footer {
   border-top: 1px solid #333;
   bottom: 0;
@@ -94,4 +142,95 @@ footer {
   height: 40px;
   width: 100%;
   text-align: end;
+}
+
+@media (max-width: 450px) {
+
+    .toppage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .toppage a {
+        font-size: 25px;
+        margin-left: 0px;
+    }
+
+    .title-page {
+        font-size: 25px;
+        font-weight: bold;
+        filter: drop-shadow(4px 4px 7px #000000b3);
+    }
+
+    .container-text-image {
+        display: inline;
+    }
+    
+    .title {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    
+    .text {
+        font-size: 15px;
+    }
+    
+    .girl-img {     
+        max-width: 80%; /* Garante que a imagem ocupe o tamanho correto */
+        height: auto;
+    }
+    
+    .introduction {
+        margin: 30px;
+    }
+    
+    .development {
+        margin: 30px;
+    }
+    
+    .conclusion {
+        margin: 30px;
+    }
+    
+    /*footer*/
+
+    .container-ontop {
+        width: 100%;
+    }
+
+    .social-midia {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .github {
+        width: 40px;
+    }
+
+    .linkedin {
+        width: 40px;
+    }
+
+    .instagram {
+        width: 40px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 12px;
+        width: auto;
+    }
+
+    .container-principal {
+        height: 65vh;
+    }
+    
+    footer {
+        margin-top: 30px;
+      width: 100%;
+      text-align: end;
+    }
 }
