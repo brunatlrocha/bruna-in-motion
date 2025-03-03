@@ -25,6 +25,15 @@
     <div class="container">
         <h2>Get in Touch</h2>
         <div class="message-container">Have any questions or just want to chat? Send me a message!</div>
+        <form action="https://formspree.io/f/xgvognjz" method="POST">
+            <p>Your Name:</p>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <p>Your Email:</p>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <p>Your Message:</p>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
             <div class="social-midia">
                 <p>You may find me on:</p>
                 <div class="email">
@@ -48,7 +57,6 @@
                     </a>
                 </div>
             </div>
-        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
     </div>
 
 </body>
