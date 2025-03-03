@@ -11,10 +11,6 @@ body {
     padding: 20px;
 }
 
-/* html {
-    background: linear-gradient(#355c7d 70%, #fff41d 20%)
-}*/
-
 /*header - bruna lima*/
 
 header {
@@ -35,14 +31,21 @@ header {
 .container-ontop {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
 
 .social-midia {
     display: flex;
     align-items: center;
-    margin-left: auto;
     filter: drop-shadow(3px 3px 5px #00000080); 
+}
+
+.email {
+    margin-right: 0px; 
+    width: 45px;
+}
+
+.email:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3);
 }
 
 .linkedin {
@@ -162,12 +165,12 @@ header {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     border-top: 1px solid #E74C6F;
-    bottom: 0;
-    left: 0;
-    height: 40px;
     width: 100%;
-    text-align: end;
     color: #E74C6F;
   }
 
@@ -233,14 +236,20 @@ footer {
         width: 190px;
         height: 190px;
     }
-    
+
     .container-ontop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Alinha ao centro verticalmente */
         width: 100%;
     }
     
     .social-midia {
-        width: 100%;
+        display: flex;
         justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .github {
@@ -255,17 +264,19 @@ footer {
         width: 35px;
     }
 
+    footer {
+        flex-direction: column;
+    }
+
     footer p {
         text-align: center;
-        font-size: 12px;
         width: auto;
     }
 }
 
-@media (max-width: 451px) {
+@media (max-width: 770px) {
     
     header {
-        display: flex;
         align-content: center;
     }
 
@@ -293,6 +304,7 @@ footer {
     }
     
     .title {
+        
         font-size: 30px;
     }
 
@@ -305,10 +317,6 @@ footer {
     .circle-img-container { 
         width: 190px;
         height: 190px;
-    }
-    
-    .container-ontop {
-        width: 100%;
     }
 
     .social-midia {
