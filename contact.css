@@ -20,7 +20,7 @@ header {
 
 .name {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: #E74C6F;
     text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
     font-weight: bold;
@@ -50,6 +50,7 @@ header {
     color: #1E2A38; /* Define a cor do texto */
     padding: 50px 5px;
     border-radius: 8px;
+    font-size: 20px;
 }
 
 .nav-buttons a:hover {
