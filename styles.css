@@ -99,6 +99,10 @@ header {
     font-weight: bold;
 }
 
+span {
+    color: #ECE2D3;
+}
+
 .text-container {
     display: flex;
     flex-direction: column; /* Empilha title e subtitle */
