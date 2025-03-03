@@ -58,6 +58,7 @@ header {
 }
 
 .container {
+    margin-top: 50px;
     background-color: #ECE1D3;
     border: 15px solid #ECE1D3;
     border-radius: 15px;
@@ -166,6 +167,7 @@ button:hover {
     }
 
     .container {
+        margin-top: 50px;
         text-align: center;
         border-radius: 10px;
         box-shadow: 0px 0px 5px 5px #cac9c9b3;
@@ -195,5 +197,65 @@ button:hover {
     .social-midia {
         margin-left: 0;
         justify-content: center;
+    }
+}
+
+@media (min-width: 770px) {
+    
+    header {
+        margin: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .name {
+        font-size: 30px;
+        color: #E74C6F;
+        margin-left: 40px;
+        text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
+        font-weight: bold;
+    }
+    
+    .nav-buttons {
+        text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
+    }
+    
+    .nav-buttons ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .nav-buttons ul li {
+        display: inline; /* Garante que os itens fiquem em linha */
+    }
+    
+    .nav-buttons ul li a {
+        text-decoration: none; /* Remove o sublinhado dos links */
+        color: #1E2A38; /* Define a cor do texto */
+        padding: 20px 40px;
+        border-radius: 8px;
+    }
+    
+    .nav-buttons a:hover {
+        background-color: #E74C6F;
+        color: #ECE2D3;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        height: auto; 
+    }
+
+    form p {
+        text-align: left;
+        margin-left: 85px;
     }
 }
