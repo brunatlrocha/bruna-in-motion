@@ -20,7 +20,7 @@ header {
 
 .name {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #E74C6F;
     text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
     font-weight: bold;
