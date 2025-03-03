@@ -304,19 +304,19 @@ footer {
     }
     
     .title {
-        
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .subtitle {
         margin-top: 10px;
-        font-size: 13px;
+        font-size: 17px;
         width: 100%;
     }
 
     .circle-img-container { 
         width: 190px;
         height: 190px;
+        margin-top: 80px;
     }
 
     .social-midia {
