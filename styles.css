@@ -198,6 +198,7 @@ footer {
 
     .nav-buttons ul li a {
         padding: 50px 5px; 
+        font-size: 20px;
     }
 
     .nav-buttons {
@@ -283,12 +284,13 @@ footer {
     .name {
         width: 100%;
         margin: 0px;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: bold;
     }
 
     .nav-buttons ul li a {
         padding: 50px 5px; 
+        font-size: 20px;
     }
 
     .container-principal {
@@ -316,7 +318,7 @@ footer {
     .circle-img-container { 
         width: 200px;
         height: 200px;
-        margin-top: 65px;
+        margin-top: 45px;
     }
 
     .social-midia {
