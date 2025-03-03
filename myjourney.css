@@ -17,28 +17,44 @@ header {
     margin: 30px;
     display: flex;
     align-items: center;
-}
-
-.toppage {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
 }
 
-.title-page {
-    font-size: 25px;
-    font-weight: bold;
-    color: #1E2A38;
-}
-
-.toppage a {
+.name {
+    font-size: 30px;
     color: #E74C6F;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 30PX;
     margin-left: 40px;
-    text-shadow: 2px 2px 5px #494949b3;
+    text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
+    font-weight: bold;
+}
+
+.nav-buttons {
+    text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
+}
+
+.nav-buttons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-buttons ul li {
+    display: inline; /* Garante que os itens fiquem em linha */
+}
+
+.nav-buttons ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #1E2A38; /* Define a cor do texto */
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+.nav-buttons a:hover {
+    background-color: #E74C6F;
+    color: #ECE2D3;
 }
 
 .container-text-image {
@@ -79,6 +95,8 @@ header {
 }
 
 .text {
+    text-align: justify;
+    width: 100%;
     color: #1E2A38;
     line-height: 25px; /* Espaço entre as linhas de texto */
 }
@@ -98,14 +116,21 @@ header {
 .container-ontop {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
 
 .social-midia {
     display: flex;
     align-items: center;
-    margin-left: auto;
     filter: drop-shadow(3px 3px 5px #00000080); 
+}
+
+.email {
+    margin-right: 0px; 
+    width: 45px;
+}
+
+.email:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3);
 }
 
 .linkedin {
@@ -136,32 +161,39 @@ header {
 }
 
 footer {
-  border-top: 1px solid #333;
-  bottom: 0;
-  left: 0;
-  height: 40px;
-  width: 100%;
-  text-align: end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    width: 100%;
+    margin-top: 100px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1000px) {
+    
+    header {
+        display: inline;
+        justify-content: center;
+    }
 
-    .toppage {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .name {
+        text-align: center;
         width: 100%;
-    }
-
-    .toppage a {
-        font-size: 25px;
-        margin-left: 0px;
-    }
-
-    .title-page {
-        font-size: 25px;
+        margin: 0px;
+        font-size: 24px;
         font-weight: bold;
-        filter: drop-shadow(4px 4px 7px #000000b3);
+    }
+
+    .nav-buttons ul li a {
+        padding: 50px 5px; 
+    }
+
+    .nav-buttons {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .container-text-image {
@@ -169,13 +201,14 @@ footer {
     }
     
     .title {
-        text-align: center;
+        margin: 25px 0px 0px 30px;
         font-size: 30px;
-        margin-left: 0px;
     }
     
     .text {
+        width: 100%;
         font-size: 15px;
+        line-height: 20px;
     }
     
     .girl-img {     
@@ -184,15 +217,15 @@ footer {
     }
     
     .introduction {
-        margin: 30px;
+        margin: 5px 30px 20px 30px;
     }
     
     .development {
-        margin: 30px;
+        margin: 0px 30px 20px 30px;
     }
     
     .conclusion {
-        margin: 30px;
+        margin: 0px 30px 20px 30px;
     }
     
     /*footer*/
@@ -229,8 +262,7 @@ footer {
     }
     
     footer {
-        margin-top: 30px;
-      width: 100%;
-      text-align: end;
+        margin-top: 50px;
+        flex-direction: column;
     }
 }
