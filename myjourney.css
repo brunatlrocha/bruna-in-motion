@@ -65,6 +65,7 @@ header {
 }
 
 .left-container {
+    margin-top: 80px;
     display: flex;
     flex-direction: column; /* Empilha os elementos verticalmente */
     flex: 1; /* Faz essa coluna ocupar a metade da largura */
@@ -76,6 +77,7 @@ header {
 }
 
 .right-container {
+    margin-top: 80px;
     flex: 1; /* Faz a imagem ocupar a outra metade da largura */
     display: flex;
     justify-content: center; /* Centraliza a imagem horizontalmente */
@@ -170,7 +172,7 @@ footer {
     margin-top: 100px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     
     header {
         display: inline;
@@ -210,7 +212,11 @@ footer {
         font-size: 15px;
         line-height: 20px;
     }
-    
+
+    .left-container {
+        margin-top: 30px;
+    }
+
     .girl-img {     
         max-width: 80%; /* Garante que a imagem ocupe o tamanho correto */
         height: auto;
