@@ -41,7 +41,7 @@ header {
 
 .email {
     margin-right: 0px; 
-    width: 45px;
+    width: 50px;
 }
 
 .email:hover {
@@ -77,7 +77,10 @@ header {
 
 /*container-principal*/
 .container-principal {
+    display: flex;
     height: 90vh;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Photo and Graduation*/
@@ -94,7 +97,7 @@ header {
 }
 
 .title {
-    width: 60%;
+    width: 70%;
     font-size: 55px;
     font-weight: bold;
 }
@@ -106,12 +109,12 @@ span {
 .text-container {
     display: flex;
     flex-direction: column; /* Empilha title e subtitle */
-    width: 40%;
+    width: 50%;
 }
 
 .subtitle {
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 17px;
     color: #ECE2D3;
     width: 70%;
 }
@@ -153,12 +156,12 @@ span {
 }
 
 .nav-buttons ul li {
-    display: inline; /* Ensures items are in line */
+    display: inline; /* Garante que os itens fiquem em linha */
 }
 
 .nav-buttons ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #ECE2D3; /* Sets the text color */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #ECE2D3; /* Define a cor do texto */
     padding: 20px 40px;
     border-radius: 8px;
 }
@@ -217,7 +220,6 @@ footer {
     }  
 
     .graduation {
-        margin: 2px;
         display: flex;
         flex-wrap: wrap;
         align-items: normal;
@@ -246,7 +248,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; /* Aligns center vertically */
+        justify-content: center; /* Alinha ao centro verticalmente */
         width: 100%;
     }
     
@@ -279,7 +281,6 @@ footer {
     }
 }
 
-/*tablet*/
 @media (max-width: 770px) {
     
     header {
