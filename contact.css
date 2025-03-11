@@ -253,13 +253,13 @@ button:hover {
     .container {
         display: flex;
         flex-direction: column;
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
         height: auto; 
     }
 
     form p {
         text-align: left;
-        margin-left: 85px;
+        margin-left: 57px;
     }
 }
