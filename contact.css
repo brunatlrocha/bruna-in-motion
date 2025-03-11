@@ -260,6 +260,11 @@ button:hover {
 
     form p {
         text-align: left;
-        margin-left: 57px;
+        margin-left: 60px;
+    }
+
+    input, textarea {
+        padding: 8px;
+        width: 80%;
     }
 }
