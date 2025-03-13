@@ -179,7 +179,6 @@ footer {
     color: #ECE2D3;
 }
 
-/* Adicionando a seção de outros projetos */
 .other-projects {
     text-align: center;
     margin: 20px auto;
@@ -272,12 +271,12 @@ footer {
     }
     
     .nav-buttons ul li {
-        display: inline; /* Garante que os itens fiquem em linha */
+        display: inline;
     }
     
     .nav-buttons ul li a {
-        text-decoration: none; /* Remove o sublinhado dos links */
-        color: #ECE2D3; /* Define a cor do texto */
+        text-decoration: none; /* Remove underline from links */
+        color: #ECE2D3;
         padding: 20px 40px;
         border-radius: 8px;
         font-size: 16px;
