@@ -65,7 +65,7 @@ h1{
     text-align: center;
     color: #ECE2D3;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .projects {
@@ -240,6 +240,7 @@ footer {
 }
 
 @media (min-width: 770px) {
+    
     header {
         margin: 30px;
         display: flex;
@@ -285,6 +286,10 @@ footer {
     .nav-buttons a:hover {
         background-color: #E74C6F;
         color: #ECE2D3;
+    }
+
+    h1{
+        font-size: 50px;
     }
     
     .container-ontop {
