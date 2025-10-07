@@ -84,7 +84,7 @@ section {
     display: flex;
     justify-content: center; /* Alinha os elementos ao centro verticalmente */
     align-items: center;
-    gap: 40px; /* Espaço entre os elementos */
+    gap: 5px; /* Espaço entre os elementos */
     font-size: 30px;
     margin: 50px;
     text-shadow: 7px 7px 10px #000000b3;
@@ -92,31 +92,33 @@ section {
 
 .title {
     width: 70%;
-    font-size: 55px;
+    font-size: 70px;
     font-weight: bold;
+    text-align: left;
 }
 
 span {
-    color: #ECE2D3;
+    color: #f5c542;
 }
 
 .text-container {
     display: flex;
     flex-direction: column; /* Empilha title e subtitle */
-    width: 50%;
+    width: 40%;
 }
 
 .subtitle {
-    margin-top: 25px;
-    font-size: 17px;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 25px;
     color: #ECE2D3;
     width: 70%;
 }
 
 .square-img-container { 
     margin: 30px;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     border-radius: 0px;
     border: 2px solid #f5c542; /* Aumentei um pouco a borda para mais destaque */
     padding: 5px;
