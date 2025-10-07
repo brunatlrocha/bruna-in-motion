@@ -1,87 +1,168 @@
+/* ====== CONFIGURAÇÃO GERAL ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
-    scroll-behavior: smooth;
-}
-
-section {
-    min-height: 100vh;
-    padding: 60px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#home {
-    background-color: #121212;
-}
-
-#journey {
-    background-color: #1b1b1b;
-}
-
-#projects {
-    background-color: #202020;
-}
-
-#contact {
-    background-color: #151515;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1E2A38;
-    color: #333;
-    padding: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #111;
 }
 
-/*guide page and buttons*/
-
+/* ====== NAVBAR ====== */
 header {
-    margin: 30px;
-    padding: 30px;
-    background-color: #e7e7e7;
-    border-radius: 10px;
-    box-shadow: 5px 5px 7px #000000b3;;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  z-index: 1000;
 }
 
-.name {
-    font-size: 30px;
-    color: #1E2A38;
-    margin-left: 40px;
-    font-weight: bold;
+header .name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f5c542;
 }
 
-.container-ontop {
-    display: flex;
-    align-items: center;
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
 }
 
-.nav-buttons ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
 }
 
-.nav-buttons ul li {
-    display: inline; /* Garante que os itens fiquem em linha */
+header nav a:hover {
+  color: #f5c542;
 }
 
-.nav-buttons ul li a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: #1E2A38; /* Define a cor do texto */
-    padding: 20px 40px;
-    border-radius: 8px;
-    font-size: 25px;
+/* ====== SEÇÕES ====== */
+section {
+  min-height: 100vh;
+  padding: 120px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.nav-buttons a:hover {
-    background-color: #E74C6F;
-    color: #ECE2D3;
+/* ====== HOME ====== */
+#home {
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  text-align: center;
 }
 
+#home h1 {
+  font-size: 3rem;
+  color: #f5c542;
+  margin-bottom: 20px;
+}
+
+#home p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+/* ====== JOURNEY ====== */
+#journey {
+  background: linear-gradient(135deg, #131a22, #1f2a35);
+}
+
+#journey h2 {
+  color: #a4d4ff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#journey p {
+  max-width: 700px;
+  color: #d6e6f2;
+  line-height: 1.8;
+}
+
+/* ====== PROJECTS ====== */
+#projects {
+  background: linear-gradient(135deg, #1a1a1a, #262626);
+}
+
+#projects h2 {
+  color: #f5c542;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: #2e2e2e;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.project-card p {
+  color: #ccc;
+}
+
+/* ====== CONTACT ====== */
+#contact {
+  background: linear-gradient(135deg, #1a1319, #2d1f26);
+  text-align: center;
+}
+
+#contact h2 {
+  color: #ffb6b6;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  color: #f2dcdc;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+  background: #ffb6b6;
+  color: #111;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background: #ffc6c6;
+}
