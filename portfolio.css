@@ -86,7 +86,7 @@ section {
     align-items: center;
     gap: 5px; /* Espaço entre os elementos */
     font-size: 30px;
-    margin: 50px;
+    margin: 0% 20px 0px 20px;
     text-shadow: 7px 7px 10px #000000b3;
 }
 
@@ -104,7 +104,7 @@ span {
 .text-container {
     display: flex;
     flex-direction: column; /* Empilha title e subtitle */
-    width: 40%;
+    width: 60%;
 }
 
 .subtitle {
@@ -117,8 +117,8 @@ span {
 
 .square-img-container { 
     margin: 30px;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     border-radius: 0px;
     border: 2px solid #f5c542; /* Aumentei um pouco a borda para mais destaque */
     padding: 5px;
@@ -401,17 +401,6 @@ span {
     }
 }
 
-@media (max-width: 1024px) {
-
-    .text-container {
-        width: ;
-    }
-    .title {
-        font-size: 0px;
-        width: 100%;
-    }
-
-}
 
 
 
