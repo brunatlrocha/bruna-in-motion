@@ -28,7 +28,6 @@ header {
     font-size: 30px;
     color: #1E2A38;
     margin-left: 40px;
-    text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
     font-weight: bold;
 }
 
@@ -145,10 +144,6 @@ span {
 }
 
 /*guide page (buttons)*/
-
-.nav-buttons {
-    text-shadow: 3px 3px 7px #000000b3; /* Sombra mais intensa no hover */
-}
 
 .nav-buttons ul {
     list-style: none;
@@ -359,3 +354,4 @@ footer {
         height: 65vh;
     }
 }
+
