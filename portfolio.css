@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background-color: #121212;
+}
+
+#journey {
+    background-color: #1b1b1b;
+}
+
+#projects {
+    background-color: #202020;
+}
+
+#contact {
+    background-color: #151515;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E2A38;
+    color: #333;
+    padding: 20px;
+}
