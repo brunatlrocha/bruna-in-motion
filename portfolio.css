@@ -112,12 +112,13 @@ span {
     color: #ECE2D3;
     width: 70%;
 }
-.circle-img-container { 
+
+.square-img-container { 
     margin: 30px;
     width: 350px;
     height: 350px;
-    border-radius: 50%;
-    border: 2px solid #E74C6F; /* Aumentei um pouco a borda para mais destaque */
+    border-radius: 0px;
+    border: 2px solid #f5c542; /* Aumentei um pouco a borda para mais destaque */
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -126,11 +127,12 @@ span {
     box-shadow: 7px 7px 10px #000000b3;
 }
 
-.circle-img {
+.square-img {
     width: 100%; /* Garante que a imagem ocupe todo o espaço disponível no contêiner */
     height: 100%; /* Garante que a imagem ocupe todo o espaço disponível no contêiner */
-    border-radius: 50%; /* Define o raio da borda para fazer a imagem parecer um círculo */
+    border-radius: 0px; /* Define o raio da borda para fazer a imagem parecer um círculo */
     object-fit: cover;
+    object-position: 0;
 }
 
 /* ====== JOURNEY ====== */
