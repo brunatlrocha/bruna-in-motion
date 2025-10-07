@@ -159,6 +159,62 @@ span {
     height: auto;
 }
 
+.container-text-image {
+    display: flex; /* Usando Flexbox para layout horizontal */
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: flex-start; /* Alinha os itens no topo */
+    height: 100vh; /* Faz o contêiner ocupar toda a altura da página */
+}
+
+.left-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    flex: 1; /* Faz essa coluna ocupar a metade da largura */
+}
+
+.folks .text {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.right-container {
+    margin: 10px;
+    flex: 1; /* Faz a imagem ocupar a outra metade da largura */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+.girl-img {
+    max-width: 100%; /* Garante que a imagem ocupe o tamanho correto */
+    height: auto;
+}
+
+.folks {
+    margin: 0px 20px 5px 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text {
+    text-align: justify;
+    width: 100%;
+    line-height: 25px; /* Espaço entre as linhas de texto */
+}
+
+.introduction {
+    margin: 0px 100px 10px 100px;
+}
+
+.development {
+    margin: 20px 100px 20px 100px;
+}
+
+.conclusion {
+    margin: 20px 100px 20px 100px;
+}
+
 /* ====== PROJECTS ====== */
 #projects {
   background: linear-gradient(135deg, #1a1a1a, #262626);
