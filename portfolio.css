@@ -80,6 +80,59 @@ section {
   font-size: 1.2rem;
 }
 
+.graduation {
+    display: flex;
+    justify-content: center; /* Alinha os elementos ao centro verticalmente */
+    align-items: center;
+    gap: 40px; /* Espaço entre os elementos */
+    font-size: 30px;
+    margin: 50px;
+    text-shadow: 7px 7px 10px #000000b3;
+}
+
+.title {
+    width: 70%;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+span {
+    color: #ECE2D3;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Empilha title e subtitle */
+    width: 50%;
+}
+
+.subtitle {
+    margin-top: 25px;
+    font-size: 17px;
+    color: #ECE2D3;
+    width: 70%;
+}
+.circle-img-container { 
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid #E74C6F; /* Aumentei um pouco a borda para mais destaque */
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que a imagem não ultrapasse o contêiner */
+    box-shadow: 7px 7px 10px #000000b3;
+}
+
+.circle-img {
+    width: 100%; /* Garante que a imagem ocupe todo o espaço disponível no contêiner */
+    height: 100%; /* Garante que a imagem ocupe todo o espaço disponível no contêiner */
+    border-radius: 50%; /* Define o raio da borda para fazer a imagem parecer um círculo */
+    object-fit: cover;
+}
+
 /* ====== JOURNEY ====== */
 #journey {
   background: linear-gradient(135deg, #131a22, #1f2a35);
