@@ -154,6 +154,11 @@ span {
   line-height: 1.8;
 }
 
+.girl-img {
+    max-width: 80%; /* Garante que a imagem ocupe o tamanho correto */
+    height: auto;
+}
+
 /* ====== PROJECTS ====== */
 #projects {
   background: linear-gradient(135deg, #1a1a1a, #262626);
@@ -223,3 +228,190 @@ span {
 .contact-btn:hover {
   background: #ffc6c6;
 }
+
+ @media (max-width: 450px) {
+
+    header {
+        display: inline;
+        justify-content: center;
+    }
+
+    .name {
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+
+    .nav-buttons ul li a {
+        padding: 50px 5px; 
+        font-size: 20px;
+    }
+
+    .nav-buttons {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-principal {
+        height: 73vh;
+    }  
+
+    .graduation {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: normal;
+        gap: 0px;
+    }
+    
+    .title {
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-size: 13px;
+        color: #ECE2D3;
+        width: 100%;
+    }
+    
+    .circle-img-container { 
+        width: 190px;
+        height: 190px;
+    }
+
+    .container-ontop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Alinha ao centro verticalmente */
+        width: 100%;
+    }
+    
+    .social-midia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .github {
+        width: 35px;
+    }
+
+    .linkedin {
+        width: 35px;
+    }
+
+    .instagram {
+        width: 35px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer p {
+        text-align: center;
+        width: auto;
+    }
+}
+
+@media (max-width: 770px) {
+    
+    header {
+        align-content: center;
+    }
+
+    .name {
+        width: 100%;
+        margin: 0px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .nav-buttons ul li a {
+        padding: 50px 5px; 
+        font-size: 20px;
+    }
+
+    .container-principal {
+        height: 73vh;
+    }  
+
+    .graduation {
+        margin: 25px;
+        display: flex;
+        align-items: normal;
+        gap: 0px;
+        align-items: center;
+    }
+    
+    .title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .square-img-container { 
+        width: 200px;
+        height: 200px;
+        margin-top: 45px;
+    }
+
+    .social-midia {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .github {
+        width: 40px;
+    }
+
+    .linkedin {
+        width: 40px;
+    }
+
+    .instagram {
+        width: 40px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 12px;
+        width: auto;
+    }
+
+    .container-principal {
+        height: 65vh;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .text-container {
+        width: ;
+    }
+    .title {
+        font-size: 0px;
+        width: 100%;
+    }
+
+}
+
+
+
