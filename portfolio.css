@@ -470,11 +470,14 @@ button:hover {
   .conclusion {
     margin: 0px 10px 10px 0px;
   }
-  
+
   form input, form textarea, form button {
     width: 90%;
   }
 
+  label {
+    margin-left: 6%;
+  }
   .social-midia {
     flex-wrap: wrap;
     justify-content: center;
