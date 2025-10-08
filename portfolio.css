@@ -471,13 +471,16 @@ button:hover {
     margin: 0px 10px 10px 0px;
   }
 
+/* ====== CONTACT ====== */
+
   form input, form textarea, form button {
     width: 90%;
   }
 
   label {
-    margin-left: 6%;
+    margin-left: 5%;
   }
+
   .social-midia {
     flex-wrap: wrap;
     justify-content: center;
