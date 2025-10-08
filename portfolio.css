@@ -55,7 +55,7 @@ header nav a:hover {
 /* ====== SEÇÕES ====== */
 section {
   min-height: 100vh;
-  padding: 120px 80px 80px;
+  padding: 90px 80px 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,9 +220,19 @@ span {
   background: linear-gradient(135deg, #1a1a1a, #262626);
 }
 
+#projecttitle {
+  text-align: left;
+  color: #d6e6f2;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  border: 5px;
+}
+
 #projects h2 {
   color: #f5c542;
-  font-size: 2.5rem;
+  font-size: 40px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -262,7 +272,7 @@ span {
 
 #contact h2 {
   color: #ffb6b6;
-  font-size: 2.5rem;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
