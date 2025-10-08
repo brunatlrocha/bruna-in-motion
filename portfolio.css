@@ -278,7 +278,7 @@ span {
 
 #contact p {
   color: #f2dcdc;
-  margin-bottom: 30px;
+  width: 68%;
 }
 
 .contact-btn {
@@ -291,6 +291,97 @@ span {
   transition: background 0.3s;
 }
 
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.message-container {
+  text-align: center;
+  margin: 20px;
+}
+
+input, textarea {
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ECE1D3;
+  border-radius: 5px;
+}
+
+button {
+  background: #f5c542;
+  color: #ECE1D3;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2b5480;
+}
+
+.social {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-midia {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    filter: drop-shadow(3px 3px 5px #00000080); 
+}
+
+.social-midia p {
+    margin: 10px;
+}
+
+.email {
+  margin-right: 0px; 
+  width: 45px;
+}
+
+.email:hover {
+  filter: drop-shadow(4px 4px 7px #000000b3);
+}
+
+.linkedin {
+  margin-right: 10px; 
+  width: 50px;
+}
+
+.linkedin:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+}
+
+.github {
+    margin: 10px;
+    width: 50px; 
+}
+
+.github:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+}
+
+.instagram {
+    margin-right: 10px;
+    width: 50px; 
+}
+
+.instagram:hover {
+    filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+}
+
+.dark-mode {
+    background-color: #1E2A38;
+    color: #ECE1D3;   
+}
 .contact-btn:hover {
   background: #ffc6c6;
 }
