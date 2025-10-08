@@ -426,12 +426,12 @@ button:hover {
 
   .title {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
   }
 
   .subtitle {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
   }
 
   .square-img-container {
