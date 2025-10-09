@@ -348,7 +348,7 @@ button:hover {
   display: flex;
   align-items: center;
   margin: auto;
-  filter: drop-shadow(3px 3px 5px #00000080); 
+  filter: drop-shadow(3px 3px 5px #b9b1b180); 
   margin-top: 20px;
   gap: 7px;
 }
@@ -364,7 +364,7 @@ button:hover {
 }
 
 .email:hover {
-  filter: drop-shadow(4px 4px 7px #000000b3);
+  filter: drop-shadow(4px 4px 7px #ffffffb4);
 }
 
 .linkedin {
@@ -373,7 +373,7 @@ button:hover {
 }
 
 .linkedin:hover {
-  filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+  filter: drop-shadow(4px 4px 7px #ffffffb3); /* Sombra mais forte no hover */
 }
 
 .github {
@@ -382,7 +382,7 @@ button:hover {
 }
 
 .github:hover {
-  filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+  filter: drop-shadow(4px 4px 7px #ffffffb3); /* Sombra mais forte no hover */
 }
 
 .instagram {
@@ -391,7 +391,7 @@ button:hover {
 }
 
 .instagram:hover {
-  filter: drop-shadow(4px 4px 7px #000000b3); /* Sombra mais forte no hover */
+  filter: drop-shadow(4px 4px 7px #ffffffb3); /* Sombra mais forte no hover */
 }
 
 
